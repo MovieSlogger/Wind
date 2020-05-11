@@ -2730,3 +2730,188 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.001217s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.002489s ]
 [ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:02+08:00 ] 172.19.16.115 POST 172.19.16.249/home/movie
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001421s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.002208s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`poster` FROM `movie_item` [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:02+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000828s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001494s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00001' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187002) [ RunTime:0.002553s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:05+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001107s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001943s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:05+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001114s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001562s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187005) [ RunTime:0.002476s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:06+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001109s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:06+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001521s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '2' , 1589187006) [ RunTime:0.002213s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:06+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000997s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001635s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00006' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187006) [ RunTime:0.001417s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:08+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/modify
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001033s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001760s ]
+[ sql ] [ SQL ] UPDATE `movie_member`  SET `sex`=1  WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.010996s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:10+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001012s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001959s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:10+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001037s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001800s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:10+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:10+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000875s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001514s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '2' , 1589187010) [ RunTime:0.000862s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:10+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00006' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187010) [ RunTime:0.000887s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:12+08:00 ] 172.19.16.115 POST 172.19.16.249/home/star
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000911s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_collect` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_collect` WHERE  (  unionid='000001' ) [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:12+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000904s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '4' , 1589187012) [ RunTime:0.001077s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:12+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00008' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187012) [ RunTime:0.001010s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:12+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000902s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:14+08:00 ] 172.19.16.115 POST 172.19.16.249/home/record
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001033s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_history` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_history` WHERE  (  unionid='000001' ) [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:14+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '3' , 1589187014) [ RunTime:0.000978s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:14+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001195s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00007' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187014) [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:14+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:15+08:00 ] 172.19.16.115 POST 172.19.16.249/active/cloud
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001610s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_active` [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_active` [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:15+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001389s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00003' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187015) [ RunTime:0.002487s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:50:16+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:43+08:00 ] 172.19.16.115 POST 172.19.16.249/home/movie
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`poster` FROM `movie_item` [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:44+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001296s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00001' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187584) [ RunTime:0.002338s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:48+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:48+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187588) [ RunTime:0.002412s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:50+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:50+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000905s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '2' , 1589187590) [ RunTime:0.002130s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:50+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001185s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00006' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187590) [ RunTime:0.007707s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:52+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:53+08:00 ] 172.19.16.115 POST 172.19.16.249/active/cloud
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000911s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_active` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_active` [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2020-05-11T16:59:53+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00003' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589187593) [ RunTime:0.002426s ]
