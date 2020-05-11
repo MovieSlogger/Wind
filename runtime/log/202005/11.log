@@ -1,0 +1,2686 @@
+---------------------------------------------------------------
+[ 2020-05-11T13:56:59+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.829455s] [吞吐率：1.21req/s] [内存消耗：1,814.15kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'if-none-match' => '"2d-5913a76187bc0"',
+  'if-modified-since' => 'Thu, 29 Aug 2019 05:05:59 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.431253s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.351492s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.026840s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:12+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.020543s] [吞吐率：48.68req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001678s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:12+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.017017s] [吞吐率：58.76req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:12+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.018026s] [吞吐率：55.48req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:13+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.017731s] [吞吐率：56.40req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:13+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.018125s] [吞吐率：55.17req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001729s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:13+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.017535s] [吞吐率：57.03req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001562s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001664s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2020-05-11T13:57:13+08:00 ] 127.0.0.1 GET dev.slogger.cn/
+[运行时间：0.016524s] [吞吐率：60.52req/s] [内存消耗：1,811.73kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_user` [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:01:31+08:00 ] 127.0.0.1 GET dev.slogger.cn/index.php/login/login
+[运行时间：0.020175s] [吞吐率：49.57req/s] [内存消耗：956.13kb] [文件加载：23]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-11T14:07:57+08:00 ] 127.0.0.1 GET dev.slogger.cn/index.php/login/login
+[运行时间：0.042224s] [吞吐率：23.68req/s] [内存消耗：957.68kb] [文件加载：23]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-11T14:08:09+08:00 ] 127.0.0.1 GET dev.slogger.cn/login/login
+[运行时间：0.010776s] [吞吐率：92.80req/s] [内存消耗：957.55kb] [文件加载：23]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-11T14:08:11+08:00 ] 127.0.0.1 GET dev.slogger.cn/login/login
+[运行时间：0.008251s] [吞吐率：121.20req/s] [内存消耗：959.13kb] [文件加载：23]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.slogger.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-11T14:08:27+08:00 ] 172.19.16.249 POST dev.slogger.cn/login/login
+[运行时间：0.087993s] [吞吐率：11.36req/s] [内存消耗：1,847.07kb] [文件加载：34]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\home\controller\Login->login[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000879s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001828s ]
+[ sql ] [ SQL ] SELECT `name` FROM `movie_user` WHERE  (  name='admin' ) LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT `password` FROM `movie_user` WHERE  (  name='admin' ) LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_user` WHERE  (  name='admin' ) LIMIT 1 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:28+08:00 ] 172.19.16.249 POST dev.slogger.cn/report/compute
+[运行时间：0.078015s] [吞吐率：12.82req/s] [内存消耗：1,912.41kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'compute',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/main',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Report->compute[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000760s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001669s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589130000 AND 1589133600 [ RunTime:0.003324s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589133600 AND 1589137200 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589137200 AND 1589140800 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589140800 AND 1589144400 [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589144400 AND 1589148000 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589148000 AND 1589151600 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589151600 AND 1589155200 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589155200 AND 1589158800 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589158800 AND 1589162400 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589162400 AND 1589166000 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589166000 AND 1589169600 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589169600 AND 1589173200 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589173200 AND 1589176800 [ RunTime:0.018591s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589176800 AND 1589180400 [ RunTime:0.004436s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589180400 AND 1589184000 [ RunTime:0.002798s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589184000 AND 1589187600 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589187600 AND 1589191200 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589191200 AND 1589194800 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589194800 AND 1589198400 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589198400 AND 1589202000 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589202000 AND 1589205600 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589205600 AND 1589209200 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589209200 AND 1589212800 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589212800 AND 1589126400 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:28+08:00 ] 172.19.16.249 POST dev.slogger.cn/login/cookie
+[运行时间：0.102685s] [吞吐率：9.74req/s] [内存消耗：1,847.61kb] [文件加载：34]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'cookie',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/main',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '53',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+)
+[ info ] [ RUN ] app\home\controller\Login->cookie[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033941s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.006564s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_user` WHERE  (  unionid='000001' ) LIMIT 1 [ RunTime:0.001844s ]
+[ sql ] [ SQL ] SELECT `name`,`icon` FROM `movie_user` WHERE  (  unionid='000001' ) LIMIT 1 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:36+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.031730s] [吞吐率：31.52req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.003682s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:45+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.031678s] [吞吐率：31.57req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001634s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.002345s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.003618s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:45+08:00 ] 172.19.16.249 POST dev.slogger.cn/login/cookie
+[运行时间：0.035932s] [吞吐率：27.83req/s] [内存消耗：1,846.59kb] [文件加载：34]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'cookie',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '53',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+)
+[ info ] [ RUN ] app\home\controller\Login->cookie[ /Users/const/Documents/Feture/Wind/application/home/controller/Login.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001988s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_user` WHERE  (  unionid='000001' ) LIMIT 1 [ RunTime:0.003605s ]
+[ sql ] [ SQL ] SELECT `name`,`icon` FROM `movie_user` WHERE  (  unionid='000001' ) LIMIT 1 [ RunTime:0.000902s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:47+08:00 ] 172.19.16.249 POST dev.slogger.cn/report/compute
+[运行时间：0.036101s] [吞吐率：27.70req/s] [内存消耗：1,911.39kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'compute',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/main',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Report->compute[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589130000 AND 1589133600 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589133600 AND 1589137200 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589137200 AND 1589140800 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589140800 AND 1589144400 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589144400 AND 1589148000 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589148000 AND 1589151600 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589151600 AND 1589155200 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589155200 AND 1589158800 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589158800 AND 1589162400 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589162400 AND 1589166000 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589166000 AND 1589169600 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589169600 AND 1589173200 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589173200 AND 1589176800 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589176800 AND 1589180400 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589180400 AND 1589184000 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589184000 AND 1589187600 [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589187600 AND 1589191200 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589191200 AND 1589194800 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589194800 AND 1589198400 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589198400 AND 1589202000 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589202000 AND 1589205600 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589205600 AND 1589209200 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589209200 AND 1589212800 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589212800 AND 1589126400 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:49+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.036777s] [吞吐率：27.19req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003310s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:51+08:00 ] 172.19.16.249 POST dev.slogger.cn/manage/list
+[运行时间：0.031080s] [吞吐率：32.18req/s] [内存消耗：2,182.54kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'manage',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/manage',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Manage->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.006484s ]
+[ sql ] [ SQL ] SELECT `id`,`unionid`,`role`,`name`,`icon`,`time` FROM `movie_user` [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:52+08:00 ] 172.19.16.249 POST dev.slogger.cn/member/list
+[运行时间：0.033278s] [吞吐率：30.05req/s] [内存消耗：2,147.77kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/member',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Member->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `id`,`nick`,`account`,`icon`,`time` FROM `movie_member` [ RunTime:0.003321s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:54+08:00 ] 172.19.16.249 POST dev.slogger.cn/member/list
+[运行时间：0.027616s] [吞吐率：36.21req/s] [内存消耗：2,147.77kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/member',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Member->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT `id`,`nick`,`account`,`icon`,`time` FROM `movie_member` [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:55+08:00 ] 172.19.16.249 POST dev.slogger.cn/manage/list
+[运行时间：0.023615s] [吞吐率：42.35req/s] [内存消耗：2,182.54kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'manage',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/manage',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Manage->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT `id`,`unionid`,`role`,`name`,`icon`,`time` FROM `movie_user` [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:56+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.028732s] [吞吐率：34.80req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001710s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.003281s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:08:58+08:00 ] 172.19.16.249 POST dev.slogger.cn/report/compute
+[运行时间：0.038499s] [吞吐率：25.97req/s] [内存消耗：1,911.39kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'compute',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/main',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Report->compute[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001083s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589130000 AND 1589133600 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589133600 AND 1589137200 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589137200 AND 1589140800 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589140800 AND 1589144400 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589144400 AND 1589148000 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589148000 AND 1589151600 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589151600 AND 1589155200 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589155200 AND 1589158800 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589158800 AND 1589162400 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589162400 AND 1589166000 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589166000 AND 1589169600 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589169600 AND 1589173200 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589173200 AND 1589176800 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589176800 AND 1589180400 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589180400 AND 1589184000 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589184000 AND 1589187600 [ RunTime:0.002223s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589187600 AND 1589191200 [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589191200 AND 1589194800 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589194800 AND 1589198400 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589198400 AND 1589202000 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589202000 AND 1589205600 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589205600 AND 1589209200 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589209200 AND 1589212800 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589212800 AND 1589126400 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:01+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.028088s] [吞吐率：35.60req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002557s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.004115s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:08+08:00 ] 172.19.16.249 POST dev.slogger.cn/manage/list
+[运行时间：0.028054s] [吞吐率：35.65req/s] [内存消耗：2,182.54kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'manage',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/manage',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Manage->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001837s ]
+[ sql ] [ SQL ] SELECT `id`,`unionid`,`role`,`name`,`icon`,`time` FROM `movie_user` [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:09+08:00 ] 172.19.16.249 POST dev.slogger.cn/member/list
+[运行时间：0.032000s] [吞吐率：31.25req/s] [内存消耗：2,147.77kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/member',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Member->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `id`,`nick`,`account`,`icon`,`time` FROM `movie_member` [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:11+08:00 ] 172.19.16.249 POST dev.slogger.cn/member/list
+[运行时间：0.030246s] [吞吐率：33.06req/s] [内存消耗：2,147.77kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/member',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Member->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001334s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT `id`,`nick`,`account`,`icon`,`time` FROM `movie_member` [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:12+08:00 ] 172.19.16.249 POST dev.slogger.cn/manage/list
+[运行时间：0.024388s] [吞吐率：41.00req/s] [内存消耗：2,182.54kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'manage',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/manage',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Manage->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SELECT `id`,`unionid`,`role`,`name`,`icon`,`time` FROM `movie_user` [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:12+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.029684s] [吞吐率：33.69req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.006072s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:09:15+08:00 ] 172.19.16.249 POST dev.slogger.cn/report/compute
+[运行时间：0.039923s] [吞吐率：25.05req/s] [内存消耗：1,911.39kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'compute',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/main',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Report->compute[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Report->query[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.002496s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589130000 AND 1589133600 [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589133600 AND 1589137200 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589137200 AND 1589140800 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589140800 AND 1589144400 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589144400 AND 1589148000 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589148000 AND 1589151600 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589151600 AND 1589155200 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589155200 AND 1589158800 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589158800 AND 1589162400 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589162400 AND 1589166000 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589166000 AND 1589169600 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589169600 AND 1589173200 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589173200 AND 1589176800 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589176800 AND 1589180400 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589180400 AND 1589184000 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589184000 AND 1589187600 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589187600 AND 1589191200 [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589191200 AND 1589194800 [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589194800 AND 1589198400 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589198400 AND 1589202000 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589202000 AND 1589205600 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589205600 AND 1589209200 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589209200 AND 1589212800 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_report` WHERE  `time` BETWEEN 1589212800 AND 1589126400 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:11:14+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.023520s] [吞吐率：42.52req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:11:17+08:00 ] 172.19.16.249 POST dev.slogger.cn/manage/list
+[运行时间：0.029089s] [吞吐率：34.38req/s] [内存消耗：2,182.54kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'manage',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/manage',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Manage->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000775s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT `id`,`unionid`,`role`,`name`,`icon`,`time` FROM `movie_user` [ RunTime:0.000854s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:11:18+08:00 ] 172.19.16.249 POST dev.slogger.cn/member/list
+[运行时间：0.022614s] [吞吐率：44.22req/s] [内存消耗：2,147.77kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/member',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Member->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT `id`,`nick`,`account`,`icon`,`time` FROM `movie_member` [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:11:22+08:00 ] 172.19.16.249 POST dev.slogger.cn/member/list
+[运行时间：0.022290s] [吞吐率：44.86req/s] [内存消耗：2,147.77kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/member',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Member->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT `id`,`nick`,`account`,`icon`,`time` FROM `movie_member` [ RunTime:0.000955s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:11:22+08:00 ] 172.19.16.249 POST dev.slogger.cn/manage/list
+[运行时间：0.029164s] [吞吐率：34.29req/s] [内存消耗：2,182.54kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'manage',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/manage',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Manage->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Manage.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_user` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT `id`,`unionid`,`role`,`name`,`icon`,`time` FROM `movie_user` [ RunTime:0.002658s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:11:23+08:00 ] 172.19.16.249 POST dev.slogger.cn/movie/list
+[运行时间：0.019059s] [吞吐率：52.47req/s] [内存消耗：2,217.88kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'movie',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => '172.19.16.249:1025',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '1025',
+  'x-forwarded-for' => '172.19.16.249',
+  'cookie' => 'key=c05ePjoFVi7EUcrby0RlHiQvTc3ESlwMxmqtB8IHU+c0l7A',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.19.16.249:1025/movie',
+  'origin' => 'http://172.19.16.249:1025',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'dev.slogger.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Movie->list[ /Users/const/Documents/Feture/Wind/application/home/controller/Movie.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_item` [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:19+08:00 ] 172.19.16.115 POST 172.19.16.249/home/movie
+[运行时间：0.049068s] [吞吐率：20.38req/s] [内存消耗：1,858.17kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'home',
+    2 => 'movie',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '11',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'limit' => 1,
+)
+[ info ] [ RUN ] app\home\controller\Home->movie[ /Users/const/Documents/Feture/Wind/application/home/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004776s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.007870s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`poster` FROM `movie_item` [ RunTime:0.001191s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:19+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.113104s] [吞吐率：8.84req/s] [内存消耗：1,839.88kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '106',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00001',
+  'userid' => NULL,
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001911s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.005999s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00001' , NULL , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178619) [ RunTime:0.077930s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:21+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.029720s] [吞吐率：33.65req/s] [内存消耗：2,191.96kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '41',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'entry' => 0,
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000877s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:22+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.028026s] [吞吐率：35.68req/s] [内存消耗：1,839.88kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '106',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => NULL,
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.005109s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , NULL , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178622) [ RunTime:0.002762s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:24+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.025759s] [吞吐率：38.82req/s] [内存消耗：2,191.88kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '31',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000853s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.002398s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:24+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.025000s] [吞吐率：40.00req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => 'fb16U6kh3pbGnZVXTeTeJTN6BNR0/r8JX3oN5vnvrXgmFc4',
+  'acttype' => 'click',
+  'type' => 2,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.002406s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '2' , 1589178624) [ RunTime:0.001482s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:24+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.029650s] [吞吐率：33.73req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00006',
+  'userid' => 'fb16U6kh3pbGnZVXTeTeJTN6BNR0/r8JX3oN5vnvrXgmFc4',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000791s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001826s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00006' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178624) [ RunTime:0.001485s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:30:26+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.034152s] [吞吐率：29.28req/s] [内存消耗：2,191.96kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '41',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'entry' => 0,
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.003421s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:13+08:00 ] 172.19.16.115 POST 172.19.16.249/home/movie
+[运行时间：0.070267s] [吞吐率：14.23req/s] [内存消耗：1,858.17kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'home',
+    2 => 'movie',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '11',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'limit' => 1,
+)
+[ info ] [ RUN ] app\home\controller\Home->movie[ /Users/const/Documents/Feture/Wind/application/home/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_item` [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`poster` FROM `movie_item` [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:13+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.022936s] [吞吐率：43.60req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00001',
+  'userid' => '5059KuKlECnvIHxSawUO3j4IiwzPjJW/o0Lbt8z4kXLP780',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001718s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00001' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178853) [ RunTime:0.001296s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:21+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.035323s] [吞吐率：28.31req/s] [内存消耗：2,174.52kb] [文件加载：34]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '41',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'entry' => 0,
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:21+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.021583s] [吞吐率：46.33req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => '5059KuKlECnvIHxSawUO3j4IiwzPjJW/o0Lbt8z4kXLP780',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000789s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001618s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178861) [ RunTime:0.002375s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:22+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.018138s] [吞吐率：55.13req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => '5059KuKlECnvIHxSawUO3j4IiwzPjJW/o0Lbt8z4kXLP780',
+  'acttype' => 'click',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178862) [ RunTime:0.000938s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:22+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.016621s] [吞吐率：60.16req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00005',
+  'userid' => '5059KuKlECnvIHxSawUO3j4IiwzPjJW/o0Lbt8z4kXLP780',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00005' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178862) [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:44+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.015418s] [吞吐率：64.86req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00005',
+  'userid' => '5059KuKlECnvIHxSawUO3j4IiwzPjJW/o0Lbt8z4kXLP780',
+  'acttype' => 'click',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00005' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178884) [ RunTime:0.000997s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:44+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/register
+[运行时间：0.095627s] [吞吐率：10.46req/s] [内存消耗：2,199.98kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '114',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'brand' => 'xiaomi',
+  'system' => 'Android',
+  'uniqueid' => '86e6452afe094938',
+  'account' => '13163204608',
+  'password' => '147258369',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->register[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Signin->union[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `account` FROM `movie_member` WHERE  (  account='13163204608' ) LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_member` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] INSERT INTO `movie_member` (`unionid` , `brand` , `system` , `uniqueid` , `account` , `password` , `icon` , `level` , `time`) VALUES ('000001' , 'xiaomi' , 'Android' , '86e6452afe094938' , '13163204608' , '$2y$10$Ky0EgW4hwG/6mCnQ7nGFCuVoyvEXayE4m20lOKiDOgv.YhFBe5KNy' , '' , 1 , 1589178884) [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_member` WHERE  (  account='13163204608' ) LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:45+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.020706s] [吞吐率：48.30req/s] [内存消耗：2,191.96kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '41',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'entry' => 0,
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000775s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:47+08:00 ] 172.19.16.115 POST 172.19.16.249/home/record
+[运行时间：0.020654s] [吞吐率：48.42req/s] [内存消耗：1,866.12kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'home',
+    2 => 'record',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '31',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ RUN ] app\home\controller\Home->record[ /Users/const/Documents/Feture/Wind/application/home/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_history` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_history` WHERE  (  unionid='000001' ) [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:47+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.017694s] [吞吐率：56.52req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00007',
+  'userid' => '8bf5Q47KqoBBAS2kewGcRzLfIbTT7IOw+vRYW2W4gjmIhRg',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001166s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00007' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178887) [ RunTime:0.001602s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:47+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.017687s] [吞吐率：56.54req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => '8bf5Q47KqoBBAS2kewGcRzLfIbTT7IOw+vRYW2W4gjmIhRg',
+  'acttype' => 'click',
+  'type' => 3,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '3' , 1589178887) [ RunTime:0.001605s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:50+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.021090s] [吞吐率：47.42req/s] [内存消耗：2,191.96kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '41',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'entry' => 0,
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:50+08:00 ] 172.19.16.115 POST 172.19.16.249/home/star
+[运行时间：0.020428s] [吞吐率：48.95req/s] [内存消耗：1,866.12kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'home',
+    2 => 'star',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '31',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ RUN ] app\home\controller\Home->star[ /Users/const/Documents/Feture/Wind/application/home/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000701s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT `unionid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_collect` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_collect` WHERE  (  unionid='000001' ) [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:50+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.016628s] [吞吐率：60.14req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => '33b9Rc5XDwqU/+g8+oaQMnnQ1K137dGyxNOwcAWrbErVeI0',
+  'acttype' => 'click',
+  'type' => 4,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '4' , 1589178890) [ RunTime:0.001701s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:50+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.016600s] [吞吐率：60.24req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00008',
+  'userid' => '33b9Rc5XDwqU/+g8+oaQMnnQ1K137dGyxNOwcAWrbErVeI0',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00008' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178890) [ RunTime:0.002053s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:52+08:00 ] 172.19.16.115 POST 172.19.16.249/signin/member
+[运行时间：0.020879s] [吞吐率：47.89req/s] [内存消耗：2,191.96kb] [文件加载：35]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '41',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'entry' => 0,
+  'uniqueid' => '86e6452afe094938',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->member[ /Users/const/Documents/Feture/Wind/application/home/controller/Signin.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_member` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT `uniqueid` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `unionid`,`nick`,`icon`,`level`,`sex`,`signature` FROM `movie_member` WHERE  (  uniqueid='86e6452afe094938' ) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:52+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.020977s] [吞吐率：47.67req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => 'd8dbgec2/9SnXEdIHHoWTyShVMKtxge1m03cDnYG0+Vs8p8',
+  'acttype' => 'click',
+  'type' => 5,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '5' , 1589178892) [ RunTime:0.002514s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:53+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.021058s] [吞吐率：47.49req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => 'd8dbgec2/9SnXEdIHHoWTyShVMKtxge1m03cDnYG0+Vs8p8',
+  'acttype' => 'click',
+  'type' => 5,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001574s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '5' , 1589178893) [ RunTime:0.001775s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:53+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.019453s] [吞吐率：51.41req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '152',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00004',
+  'userid' => 'd8dbgec2/9SnXEdIHHoWTyShVMKtxge1m03cDnYG0+Vs8p8',
+  'acttype' => 'click',
+  'type' => 5,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00004' , '000001' , 'click' , '86e6452afe094938' , 'xiaomi' , '5' , 1589178893) [ RunTime:0.002396s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:55+08:00 ] 172.19.16.115 POST 172.19.16.249/active/cloud
+[运行时间：0.020092s] [吞吐率：49.77req/s] [内存消耗：1,812.00kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'active',
+    2 => 'cloud',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '2',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Active->cloud[ /Users/const/Documents/Feture/Wind/application/home/controller/Active.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_active` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT * FROM `movie_active` [ RunTime:0.001547s ]
+---------------------------------------------------------------
+[ 2020-05-11T14:34:55+08:00 ] 172.19.16.115 POST 172.19.16.249/report/report
+[运行时间：0.020112s] [吞吐率：49.72req/s] [内存消耗：1,859.26kb] [文件加载：33]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'report',
+    2 => 'report',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '151',
+  'host' => '172.19.16.249',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.12.1',
+)
+[ info ] [ PARAM ] array (
+  'sceneid' => '00003',
+  'userid' => 'd8dbgec2/9SnXEdIHHoWTyShVMKtxge1m03cDnYG0+Vs8p8',
+  'acttype' => 'show',
+  'type' => 1,
+  'uniqueid' => '86e6452afe094938',
+  'brand' => 'xiaomi',
+)
+[ info ] [ RUN ] app\home\controller\Report->report[ /Users/const/Documents/Feture/Wind/application/home/controller/Report.php ]
+[ info ] [ RUN ] app\home\controller\Common->authcode[ /Users/const/Documents/Feture/Wind/application/home/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:host=127.0.0.1;port=3306;dbname=movie;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `movie_report` [ RunTime:0.001409s ]
+[ sql ] [ SQL ] INSERT INTO `movie_report` (`sceneid` , `userid` , `acttype` , `uniqueid` , `brand` , `type` , `time`) VALUES ('00003' , '000001' , 'show' , '86e6452afe094938' , 'xiaomi' , '1' , 1589178895) [ RunTime:0.002429s ]

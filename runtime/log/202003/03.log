@@ -1,0 +1,41 @@
+---------------------------------------------------------------
+[ 2020-03-03T12:46:32+08:00 ] 0.0.0.0 POST serveraddr.service.kugou.com/
+[运行时间：0.124268s] [吞吐率：8.05req/s] [内存消耗：1,771.38kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'serveraddr.service.kugou.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'mac-userAgent',
+  'content-length' => '6413',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1155',
+  'area' => '6',
+  'c' => '-959796958',
+  'clienttime' => '1583210792',
+  'clientver' => '295',
+  'isp' => '4',
+  'key' => 'aa10e8eb2a38a390feaac7a68f1e93c9',
+  'mid' => 'c002e927605dad13f4cb94b3d40afb65',
+  'p' => 'Nk8EyDM2upA4og==',
+  'plats' => '{"999":298,"10085":0,"10002":65,"70":10,"18":82,"10000":1149}',
+  'url_host_map' => '[{"version":112,"host_key":"ads.service.kugou.com"},{"version":112,"host_key":"specialrec.service.kugou.com"},{"version":116,"host_key":"pcstat.kugou.com"},{"version":112,"host_key":"wallet-service.kugou.com"},{"version":141,"host_key":"songsearch.kugou.com"},{"version":112,"host_key":"mvads.kugou.com"},{"version":112,"host_key":"collectservice.kugou.com"},{"version":112,"host_key":"bak.acsing.kugou.com"},{"version":129,"host_key":"vip.kugou.com"},{"version":113,"host_key":"searchrecommend.kugou.com"},{"version":118,"host_key":"ip.kugou.com"},{"version":116,"host_key":"order.kugou.com"},{"version":118,"host_key":"kmr.service.kugou.com"},{"version":117,"host_key":"everydayrec.service.kugou.com"},{"version":112,"host_key":"yuekucategory.kugou.com"},{"version":117,"host_key":"persnfm.service.kugou.com"},{"version":112,"host_key":"interface.www2.kugou.com"},{"version":112,"host_key":"mcloudservice.kugou.com"},{"version":112,"host_key":"hificloud.service.kugou.com"},{"version":112,"host_key":"locallist.service.kugou.com"},{"version":112,"host_key":"bss60001.kugou.com"},{"version":116,"host_key":"lyricsearch.kugou.com"},{"version":112,"host_key":"www2.kugou.kugou.com"},{"version":112,"host_key":"bssulbig.kugou.com"},{"version":112,"host_key":"recoverlistservice.kugou.com"},{"version":121,"host_key":"trackercdn.kugou.com"},{"version":112,"host_key":"p3.fx.kgimg.com"},{"version":118,"host_key":"login.user.kugou.com"},{"version":115,"host_key":"mac.kugou.com"},{"version":115,"host_key":"mvsearch.kugou.com"},{"version":115,"host_key":"albumsearch.kugou.com"},{"version":115,"host_key":"trackermv.kugou.com"},{"version":112,"host_key":"mobilevip.kugou.com"},{"version":112,"host_key":"fx.v.kugou.com"},{"version":115,"host_key":"zhuanjidata.kugou.com"},{"version":114,"host_key":"kmrcdn.service.kugou.com"},{"version":119,"host_key":"complexsearch.kugou.com"},{"version":117,"host_key":"sum.comment.service.kugou.com"},{"version":115,"host_key":"comment.service.kugou.com"},{"version":117,"host_key":"krcs.kugou.com"},{"version":112,"host_key":"apmconfservice.kugou.com"},{"version":112,"host_key":"bssul.kugou.com"},{"version":115,"host_key":"zhuanjistatic.kugou.com"},{"version":118,"host_key":"ip2.kugou.com"},{"version":112,"host_key":"updateservice.kugou.com"},{"version":112,"host_key":"musiclib.service.kugou.com"},{"version":112,"host_key":"searchtip.kugou.com"},{"version":112,"host_key":"p3fx.kgimg.com"},{"version":112,"host_key":"bss50001.kugou.com"},{"version":112,"host_key":"mpservice.kugou.com"},{"version":112,"host_key":"videorec.kugou.com"},{"version":112,"host_key":"bsstrackercdngz.kugou.com"},{"version":112,"host_key":"p1.fx.kgimg.com"},{"version":112,"host_key":"singerimg.kugou.com"},{"version":114,"host_key":"lyrics.kugou.com"},{"version":112,"host_key":"adservice.kugou.com"},{"version":115,"host_key":"fm.service.kugou.com"},{"version":112,"host_key":"feedback.lyrics.kugou.com"},{"version":117,"host_key":"cloudlist.service.kugou.com"},{"version":112,"host_key":"followservice.kugou.com"},{"version":112,"host_key":"usercenter.kugou.com"},{"version":112,"host_key":"t.service.kugou.com"},{"version":112,"host_key":"mobile.vipservice.kugou.com"},{"version":125,"host_key":"media.store.kugou.com"},{"version":112,"host_key":"pcboxcdn.ktv.kugou.com"},{"version":119,"host_key":"goodsmstore.kugou.com"},{"version":112,"host_key":"userinfoservice.kugou.com"},{"version":112,"host_key":"adsfile.kugou.com"},{"version":118,"host_key":"relation.user.kugou.com"},{"version":116,"host_key":"tt.kk.com"},{"version":119,"host_key":"userinfo.user.kugou.com"},{"version":112,"host_key":"adsfile.bssdlbig.kugou.com"},{"version":113,"host_key":"bss70001.kugou.com"},{"version":112,"host_key":"sound.bssdlbig.kugou.com"},{"version":114,"host_key":"pcres.kugou.com"},{"version":115,"host_key":"fanxing.kugou.com"},{"version":115,"host_key":"lib3.service.kugou.com"},{"version":115,"host_key":"trackerktv.kugou.com"},{"version":115,"host_key":"specialsearch.kugou.com"},{"version":117,"host_key":"reg.user.kugou.com"},{"version":114,"host_key":"wallet.kugou.com"},{"version":112,"host_key":"loginservice.kugou.com"}]',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]

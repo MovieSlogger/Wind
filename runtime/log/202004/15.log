@@ -1,0 +1,208 @@
+---------------------------------------------------------------
+[ 2020-04-15T16:29:18+08:00 ] 127.0.0.1 GET wind.slogger.cn/
+[运行时间：0.120094s] [吞吐率：8.33req/s] [内存消耗：1,741.11kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wind.slogger.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-04-15T16:41:48+08:00 ] 127.0.0.1 GET test.mdqygl.cn/
+[运行时间：0.066040s] [吞吐率：15.14req/s] [内存消耗：1,741.12kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'test.mdqygl.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-04-15T16:42:29+08:00 ] 127.0.0.1 GET test.mdqygl.cn/
+[运行时间：0.020842s] [吞吐率：47.98req/s] [内存消耗：1,741.45kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'test.mdqygl.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-04-15T16:42:30+08:00 ] 127.0.0.1 GET test.mdqygl.cn/
+[运行时间：0.028029s] [吞吐率：35.68req/s] [内存消耗：1,741.45kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'test.mdqygl.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-04-15T16:42:30+08:00 ] 127.0.0.1 GET test.mdqygl.cn/
+[运行时间：0.021241s] [吞吐率：47.08req/s] [内存消耗：1,741.45kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'test.mdqygl.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-04-15T16:42:30+08:00 ] 127.0.0.1 GET test.mdqygl.cn/
+[运行时间：0.016258s] [吞吐率：61.51req/s] [内存消耗：1,741.45kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'test.mdqygl.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-04-15T16:42:49+08:00 ] 127.0.0.1 GET test.nuotang.cn/
+[运行时间：0.078176s] [吞吐率：12.79req/s] [内存消耗：1,743.00kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'test.nuotang.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_99ec3e0819bd6ac83f83f49e733a6a9d=1586833942,1586848993,1586916123,1586930594; Hm_lvt_b679b11c92b5fecd59dad09653064f1c=1586833942,1586848993,1586916133,1586930594; Hm_lpvt_99ec3e0819bd6ac83f83f49e733a6a9d=1586930600; Hm_lpvt_b679b11c92b5fecd59dad09653064f1c=1586930601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]

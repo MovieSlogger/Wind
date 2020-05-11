@@ -1,0 +1,124 @@
+---------------------------------------------------------------
+[ 2020-02-28T17:07:36+08:00 ] 127.0.0.1 GET v12-h0698o1owue.z.irs01.com/?p=v12&ts=1582880856485
+[运行时间：0.149670s] [吞吐率：6.68req/s] [内存消耗：1,741.21kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'v12-h0698o1owue.z.irs01.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://v.qq.com/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'p' => 'v12',
+  'ts' => '1582880856485',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-02-28T17:07:44+08:00 ] 127.0.0.1 GET v12-s0698zc5xzy.z.irs01.com/?p=v12&ts=1582880864578
+[运行时间：0.048783s] [吞吐率：20.50req/s] [内存消耗：1,741.22kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'v12-s0698zc5xzy.z.irs01.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://v.qq.com/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'p' => 'v12',
+  'ts' => '1582880864578',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-02-28T17:07:49+08:00 ] 127.0.0.1 GET v12-h0698o1owue.z.irs01.com/?p=v12&ts=1582880869238
+[运行时间：0.054109s] [吞吐率：18.48req/s] [内存消耗：1,741.22kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'v12-h0698o1owue.z.irs01.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://v.qq.com/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'p' => 'v12',
+  'ts' => '1582880869238',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2020-02-28T17:08:05+08:00 ] 127.0.0.1 GET v12-h0698o1owue.z.irs01.com/?p=v12&ts=1582880885262
+[运行时间：0.073199s] [吞吐率：13.66req/s] [内存消耗：1,741.22kb] [文件加载：32]
+[ info ] [ LANG ] /Users/const/Documents/Feture/Wind/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'v12-h0698o1owue.z.irs01.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://v.qq.com/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'p' => 'v12',
+  'ts' => '1582880885262',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/const/Documents/Feture/Wind/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/const/Documents/Feture/Wind/thinkphp/library/think/db/Connection.php:295]
